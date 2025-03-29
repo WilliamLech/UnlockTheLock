@@ -1,0 +1,15 @@
+.button{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.colorYellow{
+  color: #d1e30b;
+}
