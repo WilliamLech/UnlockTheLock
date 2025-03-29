@@ -1,0 +1,23 @@
+<div class="flex-col">
+  <span style="margin-bottom: 20px"><label style="font-size: 1.5em">Nombre d'éssaie : {{historique.length}}</label></span>
+  <table style="width: 100%">
+    <tr class="gap-50 border-b-2 border-black">
+      <th>Digit 1</th>
+      <th>Digit 2</th>
+      <th>Digit 3</th>
+      <th>Digit 4</th>
+    </tr>
+    @for (histo of historique; track histo.id){
+      <tr class="border-b-2 border-black">
+        <td [ngClass]="histo.digitBon[0] ? 'colorYellow' : 'text-black'" style="text-align: center; font-size: 1.2em;"><b>{{histo.digits[0]}}</b></td>
+        <td [ngClass]="histo.digitBon[1] ? 'colorYellow' : 'text-black'" style="text-align: center; font-size: 1.2em"><b>{{histo.digits[1]}}</b></td>
+        <td [ngClass]="histo.digitBon[2] ? 'colorYellow' : 'text-black'" style="text-align: center; font-size: 1.2em"><b>{{histo.digits[2]}}</b></td>
+        <td [ngClass]="histo.digitBon[3] ? 'colorYellow' : 'text-black'" style="text-align: center; font-size: 1.2em"><b>{{histo.digits[3]}}</b></td>
+      </tr>
+    }
+  </table>
+
+  <span class="content-center" style="width: 100%">
+    <button class="button " type="button" (click)="recomencer()">Recommencer</button>
+  </span>
+</div>

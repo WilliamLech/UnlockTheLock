@@ -1,0 +1,122 @@
+.cadena {
+  background: #6e6e6e;
+  width: 50vh;
+  height: 50vh;
+  min-height: 500px;
+  min-width: 500px;
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+}
+
+.svgCadena{
+  z-index: 1;
+  filter: invert(100%) sepia(30%) saturate(1408%) hue-rotate(357deg) brightness(89%) contrast(85%);
+}
+
+.digit1{
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  background-color: black;
+  position: relative;
+  top: 440px;
+  z-index: 2;
+  width: 70px;
+  text-align: center;
+  border-radius: 15px;
+  left: 80px;
+}
+
+.digit2{
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  background-color: black;
+  position: relative;
+  top: 440px;
+  z-index: 2;
+  width: 70px;
+  text-align: center;
+  border-radius: 15px;
+  left: 100px;
+}
+
+.digit3{
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  background-color: black;
+  position: relative;
+  top: 440px;
+  z-index: 2;
+  width: 70px;
+  text-align: center;
+  border-radius: 15px;
+  left: 120px;
+}
+
+.digit4{
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  background-color: black;
+  position: relative;
+  top: 440px;
+  z-index: 2;
+  width: 70px;
+  text-align: center;
+  border-radius: 15px;
+  left: 140px;
+}
+
+.digitBox{
+  display: flex;
+}
+
+.cadenaBox{
+  margin-bottom: 20px;
+}
+
+.validerButton{
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  background-color: black;
+  cursor: pointer;
+  margin-left: 190px;
+}
+
+.arrowUp{
+  position : relative;
+  display : inline-block;
+  border-right : 30px solid transparent;
+  border-bottom : 40px solid black;
+  border-left : 30px solid transparent;
+  cursor : pointer;
+  z-index: 2;
+}
+
+.arrowDown{
+  display : inline-block;
+  border-top : 40px solid black;
+  border-right : 30px solid transparent;
+  border-left : 30px solid transparent;
+  cursor : pointer;
+  z-index: 2;
+  position : relative;
+}
+
+.BackGroundGreyUp{
+  border-bottom-color: #6e6e6e;
+}
+.BackGroundGreyDown{
+  border-top-color: #6e6e6e;
+}
+
+.ColorYellow{
+  color: yellow;
+}
